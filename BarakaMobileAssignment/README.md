@@ -127,7 +127,7 @@ A reusable, abstracted controller built on top of `UICollectionViewController`.
   - `ConfigureCollectionsModel`
 
 #### Example:
-```swift
+```
 GenericCollectionViewController(
     grouped: yourGroupedModel,
     layout: yourCompositionalLayout,
@@ -138,8 +138,7 @@ GenericCollectionViewController(
         // Handle tap
     }
 )
-```swift
-
+```
 
 ## 🛰️ Networking Layer
 
@@ -190,7 +189,7 @@ It abstracts network communication using protocols and extensions, ensuring **te
 
 ## 📝 Example Usage
 
-```swift
+```
 // Define a request
 struct PortfolioRequest: NetworkRequestProtocol {
     var path: String { "/portfolio" }
@@ -212,4 +211,4 @@ let cancellable = client.execute(PortfolioRequest())
     }, receiveValue: { (portfolio: Portfolio) in
         print("✅ Portfolio received: \(portfolio)")
     })
-```swift
+```
