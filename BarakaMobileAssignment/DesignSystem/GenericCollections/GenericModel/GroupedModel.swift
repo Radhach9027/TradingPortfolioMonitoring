@@ -8,8 +8,8 @@
 import Foundation
 
 struct GroupedModel {
-    public var section: Int
-    public var rows: Int
+    public let section: Int
+    public let rows: Int
     public var customCell: RegisterModelType? = nil
     public var header: RegisterModelType? = nil
     public var footer: RegisterModelType? = nil

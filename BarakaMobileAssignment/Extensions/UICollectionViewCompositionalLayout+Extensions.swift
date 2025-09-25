@@ -13,13 +13,13 @@ extension UICollectionViewCompositionalLayout {
         return UICollectionViewCompositionalLayout { sectionIndex, environment in
             let itemSize = NSCollectionLayoutSize(
                 widthDimension: .fractionalWidth(1.0),
-                heightDimension: .estimated(100)
+                heightDimension: .estimated(80)
             )
             let item = NSCollectionLayoutItem(layoutSize: itemSize)
 
             let groupSize = NSCollectionLayoutSize(
                 widthDimension: .fractionalWidth(1.0),
-                heightDimension: .estimated(100)
+                heightDimension: .estimated(80)
             )
             let group = NSCollectionLayoutGroup.vertical(
                 layoutSize: groupSize,

@@ -138,8 +138,10 @@ GenericCollectionViewController(
         // Handle tap
     }
 )
+```swift
 
-# 🛰️ Networking Layer
+
+## 🛰️ Networking Layer
 
 A **modular and scalable networking layer** built with **Combine**, following **SOLID principles**.  
 It abstracts network communication using protocols and extensions, ensuring **testability, flexibility, and maintainability**.
@@ -210,3 +212,4 @@ let cancellable = client.execute(PortfolioRequest())
     }, receiveValue: { (portfolio: Portfolio) in
         print("✅ Portfolio received: \(portfolio)")
     })
+```swift
